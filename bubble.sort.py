@@ -7,6 +7,6 @@ def bubble_sort(list):
                 list[index], list[index+1] = list[index+1], list[index]
     return list
 
-min
+
 listValues = [7, 6, 5, 4, 3, 2, 1]
 print(bubble_sort(listValues))
