@@ -1,2 +1,2 @@
-# sort_algorithms
+# Sort algorithms
 Implementation of sort algorithms
