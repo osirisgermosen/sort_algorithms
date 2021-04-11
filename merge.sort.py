@@ -1,15 +1,13 @@
 def merge_sort(list):
     if len(list) > 1:
         mid = len(list) // 2
-        left = list[:mid]
-        right = list[mid:]
+        left, right = list[:mid], list[mid:]
 
         merge_sort(left)
         merge_sort(right)
 
-        a = 0
-        b = 0
-        c = 0
+        a = b = c = 0
+        
         while a < len(left) and b < len(right):
             if left[a] < right[b]:
                 list[c] = left[a]
